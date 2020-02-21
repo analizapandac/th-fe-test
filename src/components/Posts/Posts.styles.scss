@@ -1,0 +1,45 @@
+.appName {
+  text-align: center;
+  margin: 3rem 1rem 2rem;
+}
+
+.postsComponent {
+
+  .meta {
+    font-size: 0.75rem;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+
+    li {
+      list-style-type: none;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      margin-bottom: 1rem;
+
+      &:hover {
+        background: #efefef;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .title {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        text-decoration: underline;
+        text-transform: capitalize;
+      }
+
+      .body {
+        opacity: 0.75;
+      }
+    }
+  }
+}
